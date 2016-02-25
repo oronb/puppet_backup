@@ -1,0 +1,484 @@
+---
+aio_agent_build: 1.3.5
+aio_agent_version: 1.3.5
+apt_has_updates: true
+apt_package_updates:
+- bind9-host
+- initscripts
+- python3-problem-report
+- liblwres90
+- e2fslibs
+- apt
+- libsystemd-login0
+- linux-headers-generic
+- libgnutls-openssl27
+- ppp
+- gcc-4.8-base
+- update-manager-core
+- gdisk
+- libpython2.7-stdlib
+- multiarch-support
+- libdns100
+- accountsservice
+- fuse
+- libisccfg90
+- systemd-services
+- libssl1.0.0
+- apt-transport-https
+- os-prober
+- python-pkg-resources
+- isc-dhcp-common
+- libbind9-90
+- libxext6
+- e2fsprogs
+- tcpdump
+- libgssapi-krb5-2
+- dpkg
+- python3.4
+- python-urllib3
+- pollinate
+- libicu52
+- libpng12-0
+- coreutils
+- libkrb5-3
+- apt-utils
+- cpio
+- iproute2
+- libcomerr2
+- sudo
+- python3-update-manager
+- overlayroot
+- openssh-server
+- mount
+- python3.4-minimal
+- parted
+- libfreetype6
+- libsystemd-daemon0
+- python-apt
+- libpolkit-agent-1-0
+- linux-image-virtual
+- libcgmanager0
+- libgcc1
+- grub-common
+- dh-python
+- linux-image-3.13.0-79-generic
+- libapparmor1
+- libpython3.4-stdlib
+- libpam-systemd
+- libc-bin
+- libc6
+- libnuma1
+- linux-virtual
+- openssh-sftp-server
+- python2.7
+- libss2
+- libapt-inst1.5
+- libuuid1
+- libmount1
+- dnsutils
+- udev
+- base-files
+- patch
+- ifupdown
+- linux-headers-virtual
+- gnupg
+- grub2-common
+- bash-completion
+- policykit-1
+- libsqlite3-0
+- libpython3.4-minimal
+- linux-headers-3.13.0-79-generic
+- grub-legacy-ec2
+- krb5-locales
+- libparted0debian1
+- libudev1
+- bsdutils
+- libapparmor-perl
+- lshw
+- linux-headers-3.13.0-79
+- openssh-client
+- libapt-pkg4.12
+- uuid-runtime
+- python3-apt
+- libpython2.7
+- python-six
+- libpolkit-backend-1-0
+- isc-dhcp-client
+- sysv-rc
+- grub-pc-bin
+- libgnutls26
+- grub-pc
+- python3-distupgrade
+- passwd
+- gpgv
+- apport
+- python2.7-minimal
+- sysvinit-utils
+- libblkid1
+- libpolkit-gobject-1-0
+- login
+- python3-gdbm
+- libaccountsservice0
+- libexpat1
+- python3-apport
+- apparmor
+- tzdata
+- openssl
+- rsync
+- ubuntu-release-upgrader-core
+- util-linux
+- libtasn1-6
+- python-apt-common
+- libfuse2
+- libstdc++6
+- libdrm2
+- unattended-upgrades
+- libpython2.7-minimal
+- libkrb5support0
+- irqbalance
+- libk5crypto3
+- libisccc90
+- libgcrypt11
+- libisc95
+- gcc-4.9-base
+- libcurl3-gnutls
+- rsyslog
+- ntpdate
+- libffi6
+apt_reboot_required: false
+apt_security_updates: 71
+apt_update_last_success: 1456202493
+apt_updates: 142
+architecture: amd64
+augeas:
+  version: 1.4.0
+augeasversion: 1.4.0
+bios_release_date: 12/07/2015
+bios_vendor: Xen
+bios_version: 4.2.amazon
+blockdevice_xvda_size: 8589934592
+blockdevices: xvda
+chassistype: Other
+custom_auth_conf: false
+dhcp_servers:
+  eth0: 172.31.16.1
+  system: 172.31.16.1
+disks:
+  xvda:
+    size: 8.00 GiB
+    size_bytes: 8589934592
+dmi:
+  bios:
+    release_date: 12/07/2015
+    vendor: Xen
+    version: 4.2.amazon
+  chassis:
+    type: Other
+  manufacturer: Xen
+  product:
+    name: HVM domU
+    serial_number: ec27422f-d08e-e6dd-c93b-bbf44fdd7f68
+    uuid: EC27422F-D08E-E6DD-C93B-BBF44FDD7F68
+domain: eu-west-1.compute.internal
+ec2_metadata:
+  ami-id: ami-47a23a30
+  ami-launch-index: '0'
+  ami-manifest-path: "(unknown)"
+  block-device-mapping:
+    ami: "/dev/sda1"
+    root: "/dev/sda1"
+  hostname: ip-172-31-25-212.eu-west-1.compute.internal
+  instance-action: none
+  instance-id: i-edff0267
+  instance-type: t2.medium
+  local-hostname: ip-172-31-25-212.eu-west-1.compute.internal
+  local-ipv4: 172.31.25.212
+  mac: 06:23:ee:2a:55:05
+  metrics:
+    vhostmd: <?xml version="1.0" encoding="UTF-8"?>
+  network:
+    interfaces:
+      macs:
+        06:23:ee:2a:55:05:
+          device-number: '0'
+          interface-id: eni-ea298ea1
+          ipv4-associations:
+            52.30.118.90: 172.31.25.212
+          local-hostname: ip-172-31-25-212.eu-west-1.compute.internal
+          local-ipv4s: 172.31.25.212
+          mac: 06:23:ee:2a:55:05
+          owner-id: '501540795480'
+          public-hostname: ec2-52-30-118-90.eu-west-1.compute.amazonaws.com
+          public-ipv4s: 52.30.118.90
+          security-group-ids: sg-ecea5d88
+          security-groups: Default - Yoav
+          subnet-id: subnet-9cbcebeb
+          subnet-ipv4-cidr-block: 172.31.16.0/20
+          vpc-id: vpc-d7275db2
+          vpc-ipv4-cidr-block: 172.31.0.0/16
+  placement:
+    availability-zone: eu-west-1b
+  profile: default-hvm
+  public-hostname: ec2-52-30-118-90.eu-west-1.compute.amazonaws.com
+  public-ipv4: 52.30.118.90
+  public-keys:
+    '0':
+      openssh-key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCSwmWcZ7ni1tBEkXBs/ZrZeP6+dPLNj5m5ZF+mbM6DkrYpSbXc/bkQiATig3fCPLoanP+xdJ5gDlSCbEWsrCLbqO1ltTPxZnrorYC//s77YKsIt+MG1hsTELndUjCADj2jnLwoYp7G77q6YBrJJX5F0hZmvvab7i4RZmyPP/6KWtDRlICL1wQCSv7LwEHP6vxMmbm2cz4d7vicxoGqGkTrFlHrdn1OJgfdz7MGDXrW7oWvLmO4u5ov/6MjEuvb15g41rGzyl2igjTblm0xVrJOVwtiQxUKFxJjFXLh3xKEgC6l93LwBisbkpfGuBSo5JZ56KB5/Nf2I0u6H7NQQnrx
+        oron
+  reservation-id: r-ff2ba646
+  security-groups: Default - Yoav
+  services:
+    domain: amazonaws.com
+facterversion: 3.1.4
+filesystems: ext2,ext3,ext4,vfat
+fqdn: oron-puppet-master.eu-west-1.compute.internal
+gemhome: "/opt/puppetlabs/puppet/lib/ruby/gems/2.1.0"
+gid: root
+git_exec_path: "/usr/lib/git-core"
+git_html_path: "/usr/share/doc/git/html"
+git_version: 1.9.1
+hardwareisa: x86_64
+hardwaremodel: x86_64
+hostname: oron-puppet-master
+id: root
+identity:
+  gid: 0
+  group: root
+  uid: 0
+  user: root
+interfaces: eth0,lo
+ipaddress: 172.31.25.212
+ipaddress6: fe80::423:eeff:fe2a:5505
+ipaddress6_eth0: fe80::423:eeff:fe2a:5505
+ipaddress6_lo: "::1"
+ipaddress_eth0: 172.31.25.212
+ipaddress_lo: 127.0.0.1
+is_pe: false
+is_virtual: true
+jenkins_plugins: ''
+kernel: Linux
+kernelmajversion: '3.13'
+kernelrelease: 3.13.0-48-generic
+kernelversion: 3.13.0
+load_averages:
+  15m: 0.05
+  1m: 0.08
+  5m: 0.03
+lsbdistcodename: trusty
+lsbdistdescription: Ubuntu 14.04.2 LTS
+lsbdistid: Ubuntu
+lsbdistrelease: '14.04'
+lsbmajdistrelease: '14.04'
+macaddress: 06:23:ee:2a:55:05
+macaddress_eth0: 06:23:ee:2a:55:05
+manufacturer: Xen
+memory:
+  swap:
+    available: 4.00 GiB
+    available_bytes: 4294963200
+    capacity: 0%
+    total: 4.00 GiB
+    total_bytes: 4294963200
+    used: 0 bytes
+    used_bytes: 0
+  system:
+    available: 1.59 GiB
+    available_bytes: 1707134976
+    capacity: 58.80%
+    total: 3.86 GiB
+    total_bytes: 4143964160
+    used: 2.27 GiB
+    used_bytes: 2436829184
+memoryfree: 1.59 GiB
+memoryfree_mb: 1628.05078125
+memorysize: 3.86 GiB
+memorysize_mb: 3951.9921875
+mountpoints:
+  "/":
+    available: 1.15 GiB
+    available_bytes: 1230184448
+    capacity: 85.20%
+    device: "/dev/xvda1"
+    filesystem: ext4
+    options:
+    - rw
+    - discard
+    size: 7.74 GiB
+    size_bytes: 8309932032
+    used: 6.59 GiB
+    used_bytes: 7079747584
+mtu_eth0: 9001
+mtu_lo: 65536
+netmask: 255.255.240.0
+netmask6: 'ffff:ffff:ffff:ffff::'
+netmask6_eth0: 'ffff:ffff:ffff:ffff::'
+netmask6_lo: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+netmask_eth0: 255.255.240.0
+netmask_lo: 255.0.0.0
+network: 172.31.16.0
+network6: 'fe80::'
+network6_eth0: 'fe80::'
+network6_lo: "::1"
+network_eth0: 172.31.16.0
+network_lo: 127.0.0.0
+networking:
+  dhcp: 172.31.16.1
+  domain: eu-west-1.compute.internal
+  fqdn: oron-puppet-master.eu-west-1.compute.internal
+  hostname: oron-puppet-master
+  interfaces:
+    eth0:
+      bindings:
+      - address: 172.31.25.212
+        netmask: 255.255.240.0
+        network: 172.31.16.0
+      bindings6:
+      - address: fe80::423:eeff:fe2a:5505
+        netmask: 'ffff:ffff:ffff:ffff::'
+        network: 'fe80::'
+      dhcp: 172.31.16.1
+      ip: 172.31.25.212
+      ip6: fe80::423:eeff:fe2a:5505
+      mac: 06:23:ee:2a:55:05
+      mtu: 9001
+      netmask: 255.255.240.0
+      netmask6: 'ffff:ffff:ffff:ffff::'
+      network: 172.31.16.0
+      network6: 'fe80::'
+    lo:
+      bindings:
+      - address: 127.0.0.1
+        netmask: 255.0.0.0
+        network: 127.0.0.0
+      bindings6:
+      - address: "::1"
+        netmask: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+        network: "::1"
+      ip: 127.0.0.1
+      ip6: "::1"
+      mtu: 65536
+      netmask: 255.0.0.0
+      netmask6: ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff
+      network: 127.0.0.0
+      network6: "::1"
+  ip: 172.31.25.212
+  ip6: fe80::423:eeff:fe2a:5505
+  mac: 06:23:ee:2a:55:05
+  mtu: 9001
+  netmask: 255.255.240.0
+  netmask6: 'ffff:ffff:ffff:ffff::'
+  network: 172.31.16.0
+  network6: 'fe80::'
+  primary: eth0
+operatingsystem: Ubuntu
+operatingsystemmajrelease: '14.04'
+operatingsystemrelease: '14.04'
+os:
+  architecture: amd64
+  distro:
+    codename: trusty
+    description: Ubuntu 14.04.2 LTS
+    id: Ubuntu
+    release:
+      full: '14.04'
+      major: '14.04'
+  family: Debian
+  hardware: x86_64
+  name: Ubuntu
+  release:
+    full: '14.04'
+    major: '14.04'
+  selinux:
+    enabled: false
+osfamily: Debian
+package_provider: apt
+partitions:
+  "/dev/xvda1":
+    filesystem: ext4
+    label: cloudimg-rootfs
+    mount: "/"
+    size: 7.99 GiB
+    size_bytes: 8578967040
+    uuid: 877c5daf-9427-49e3-8656-437c3f30fc84
+path: "/usr/bin:/bin:/usr/sbin:/sbin"
+pe_build: 2015.3.2
+pe_concat_basedir: "/opt/puppetlabs/puppet/cache/pe_concat"
+pe_server_version: 2015.3.2
+physicalprocessorcount: 1
+platform_symlink_writable: true
+platform_tag: ubuntu-14.04-amd64
+processor0: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+processor1: Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+processorcount: 2
+processors:
+  count: 2
+  isa: x86_64
+  models:
+  - Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  - Intel(R) Xeon(R) CPU E5-2670 v2 @ 2.50GHz
+  physicalcount: 1
+productname: HVM domU
+puppet_files_dir_present: false
+puppet_vardir: "/opt/puppetlabs/puppet/cache"
+puppetversion: 4.3.2
+r10k_environment: production
+r10k_path: ''
+root_home: "/root"
+ruby:
+  platform: x86_64-linux
+  sitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+  version: 2.1.8
+rubyplatform: x86_64-linux
+rubysitedir: "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0"
+rubyversion: 2.1.8
+selinux: false
+serialnumber: ec27422f-d08e-e6dd-c93b-bbf44fdd7f68
+service_provider: upstart
+ssh:
+  dsa:
+    fingerprints:
+      sha1: SSHFP 2 1 7c2df4300af9a73d463d372ae6bdd4e807f9aa1e
+      sha256: SSHFP 2 2 24ea9790c6a6e69e3b5428094e738633aa623529d45f510d724d81edbc4cd660
+    key: AAAAB3NzaC1kc3MAAACBAI1P08YuXH7iwXJLdpPBIsjxFWSgTbTiFUwaE7aghqYi44VTDB6eLGdze4DZqiMYdZ56E1pcF8aBTsq+wMsg4aIzsGYSai1tlLNYKWRXRWR9xLM11oipF5Kwa1lkfcMgv3/01EZEH9NJJGrJvtTrNkQYxs1yMRjpGzycgEzPfXq7AAAAFQCmGKgiCvY31caPnJTGuxVrmsuSlwAAAIAtAtWpM6OZh2xLArJpUdw4NEuC64EDtSlIW5ybyJAQgcKGqRkSCkvxLHlyOMIHwE/ifHIk7STBV55Wc2cB9gJuzDulgA+d96csxfPEWUMCLwacW6aR/camm1tc7FnvbU0KXGu5pjmEImn8Xcoa6uwHMK9EMcbdzjrRMhkQZDzIOAAAAIB/LOV7Dcwzce4twVQVRRL54e55p+ht/IGR80dpsxWLfNdyrMeb/MFD8MjmBJGJlw30Veq7pPa9rpsFHNUkPXzOM9ZbvulOPc4tEgtkmskPK7bncPgFf8AqAemYLI2MU+0z4ROkeRWg3PFc++5yRBBl1URlMpdeUm5gcoCqCiZt6w==
+  ecdsa:
+    fingerprints:
+      sha1: SSHFP 3 1 1b6dc6450d3d4be52875a41da4f5e693fe530959
+      sha256: SSHFP 3 2 3373d6bee39f7d0d7e5ebe321afa2fcd8200318b381b1c14a2741caee2b7af42
+    key: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMbDprqHXNPdzyANuTfTS5LSrDbrVzihsiohzsqJxxOIEKLPS7YtrfVMzgA/BRLI1cwtTE+J7Z960QE+fjJtS+0=
+  rsa:
+    fingerprints:
+      sha1: SSHFP 1 1 41c58a7d13cd35372f3f700fefb040820770d6cf
+      sha256: SSHFP 1 2 a2b223e7cd694357fd348d1920a123a04f0c98c3774d149fe85cffc64dff38a3
+    key: AAAAB3NzaC1yc2EAAAADAQABAAABAQCbL76goUyee6v02CMN0EfOH/ZOTjjGs9Fx4QrGTshDevmVHOFczEf+jZdD6Eeaxd2cegjlSdVgzvFnfi+KXJ1lPtMP/simLStu/ToPw8b5IPRq3kVs1FH54yH2kmXm+F5y6GA4SvlAhrTgLIkVFP0MQX9hNDHOGp+naZdxRxoGGPtpe8+GWJdAlNUzReaTUMk2skvefm/XKWPi2JA2CkX/9AS3WeHflPHWUEIkd0MQkoAhuNPacYw82GU+86IRSTSzl3WfEI6cs7THYPJZ+SsGEKDQXus4q00vOPxwj63G+snvD+MEES0OnbrHy2XE9CmNfUDcEcflV7OsExhTY9UN
+sshdsakey: AAAAB3NzaC1kc3MAAACBAI1P08YuXH7iwXJLdpPBIsjxFWSgTbTiFUwaE7aghqYi44VTDB6eLGdze4DZqiMYdZ56E1pcF8aBTsq+wMsg4aIzsGYSai1tlLNYKWRXRWR9xLM11oipF5Kwa1lkfcMgv3/01EZEH9NJJGrJvtTrNkQYxs1yMRjpGzycgEzPfXq7AAAAFQCmGKgiCvY31caPnJTGuxVrmsuSlwAAAIAtAtWpM6OZh2xLArJpUdw4NEuC64EDtSlIW5ybyJAQgcKGqRkSCkvxLHlyOMIHwE/ifHIk7STBV55Wc2cB9gJuzDulgA+d96csxfPEWUMCLwacW6aR/camm1tc7FnvbU0KXGu5pjmEImn8Xcoa6uwHMK9EMcbdzjrRMhkQZDzIOAAAAIB/LOV7Dcwzce4twVQVRRL54e55p+ht/IGR80dpsxWLfNdyrMeb/MFD8MjmBJGJlw30Veq7pPa9rpsFHNUkPXzOM9ZbvulOPc4tEgtkmskPK7bncPgFf8AqAemYLI2MU+0z4ROkeRWg3PFc++5yRBBl1URlMpdeUm5gcoCqCiZt6w==
+sshecdsakey: AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBMbDprqHXNPdzyANuTfTS5LSrDbrVzihsiohzsqJxxOIEKLPS7YtrfVMzgA/BRLI1cwtTE+J7Z960QE+fjJtS+0=
+sshfp_dsa: |-
+  SSHFP 2 1 7c2df4300af9a73d463d372ae6bdd4e807f9aa1e
+  SSHFP 2 2 24ea9790c6a6e69e3b5428094e738633aa623529d45f510d724d81edbc4cd660
+sshfp_ecdsa: |-
+  SSHFP 3 1 1b6dc6450d3d4be52875a41da4f5e693fe530959
+  SSHFP 3 2 3373d6bee39f7d0d7e5ebe321afa2fcd8200318b381b1c14a2741caee2b7af42
+sshfp_rsa: |-
+  SSHFP 1 1 41c58a7d13cd35372f3f700fefb040820770d6cf
+  SSHFP 1 2 a2b223e7cd694357fd348d1920a123a04f0c98c3774d149fe85cffc64dff38a3
+sshrsakey: AAAAB3NzaC1yc2EAAAADAQABAAABAQCbL76goUyee6v02CMN0EfOH/ZOTjjGs9Fx4QrGTshDevmVHOFczEf+jZdD6Eeaxd2cegjlSdVgzvFnfi+KXJ1lPtMP/simLStu/ToPw8b5IPRq3kVs1FH54yH2kmXm+F5y6GA4SvlAhrTgLIkVFP0MQX9hNDHOGp+naZdxRxoGGPtpe8+GWJdAlNUzReaTUMk2skvefm/XKWPi2JA2CkX/9AS3WeHflPHWUEIkd0MQkoAhuNPacYw82GU+86IRSTSzl3WfEI6cs7THYPJZ+SsGEKDQXus4q00vOPxwj63G+snvD+MEES0OnbrHy2XE9CmNfUDcEcflV7OsExhTY9UN
+staging_http_get: curl
+swapfree: 4.00 GiB
+swapfree_mb: 4095.99609375
+swapsize: 4.00 GiB
+swapsize_mb: 4095.99609375
+system_uptime:
+  days: 0
+  hours: 2
+  seconds: 7447
+  uptime: 2:04 hours
+timezone: IST
+uptime: 2:04 hours
+uptime_days: 0
+uptime_hours: 2
+uptime_seconds: 7447
+uuid: EC27422F-D08E-E6DD-C93B-BBF44FDD7F68
+virtual: xen
+clientcert: oron-puppet-master
+clientversion: 4.3.2
+clientnoop: false

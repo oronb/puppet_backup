@@ -1,0 +1,3 @@
+server: oron-puppet-master
+port: 4433
+prefix: /classifier-api
